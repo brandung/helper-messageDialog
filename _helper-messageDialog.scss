@@ -1,0 +1,31 @@
+/* helper-messageDialog.js - v1.0.0 */
+.helper-message-dialog {
+	@include prefix(border-radius, 5px);
+	@include prefix(box-shadow, rgba(0, 0, 0, .3) 0 0 5px);
+	@include prefix(box-sizing, border-box);
+
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	position: fixed;
+	width: 200px;
+	min-height: 150px;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -100px;
+	text-align: center;
+	z-index: 9999;
+
+	/* iPhone 5 (landscape)  */
+	@media only screen and (min-width: 568px) {
+	}
+
+	/* iPad (portrait) */
+	@media only screen and (min-width: $breakpoint2) {
+	}
+
+	/* Desktop */
+	@media only screen and (min-width: $breakpoint3) {
+	}
+}
