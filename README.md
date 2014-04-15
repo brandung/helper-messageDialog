@@ -1,4 +1,4 @@
-hleper-messageDialog
+helper-messageDialog
 ====================
 
 Show an Message Dialog box
